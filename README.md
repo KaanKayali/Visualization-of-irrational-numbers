@@ -18,6 +18,8 @@ The goal of this visualization is to illustrate the **irrationality** of numbers
 
 - As one line rotates at a speed proportional to an irrational number (e.g., π radians per second), and the other rotates at a constant speed, they gradually trace out a circle. This misalignment between the two lines reveals how irrational numbers behave over time. The irregularities in the circle formation demonstrate the **irrationality** of the number governing the faster-spinning line.
 
+<img src="gifs/example7.gif" alt="example7" width="240"/><img src="gifs/example8.gif" alt="example8" width="240"/>
+
 ## Project Files
 
 The project is divided into three main scripts:
@@ -41,6 +43,10 @@ This script initializes the spinning lines' variables and prepares the drawing s
 - **Rotational Speeds**:
   - `omega1`: Angular velocity (speed of rotation) of the first line. This is set to a **regular speed** (a rational number).
   - `omega2`: Angular velocity of the second line, which is proportional to an **irrational number** (e.g., **π** or **√2**). This ensures that the second line rotates at a non-periodic rate, leading to the gradual misalignment.
+ 
+If the speeds of the lines are proportional (i.e., the ratio between them is a rational number), the visualization will lose its intended effect. Instead of continuously misaligning and demonstrating the irrationality of the speed, the lines will synchronize periodically, showing a repetitive pattern. This behavior contrasts with the non-repeating misalignment that occurs when one of the lines spins at a speed based on an irrational number:
+
+<img src="gifs/example9.gif" alt="example if lines are proportional" width="320"/>
 
 - **Surface Setup**:
   - A surface is created to render the visualization efficiently.
@@ -126,3 +132,7 @@ surface_reset_target();
 ```
 
 The lines are drawn in different colors to highlight their individual movements and the effects of their different rotational speeds.
+
+## More Examples
+<img src="gifs/example1.gif" alt="example1" width="320"/><img src="gifs/example2.gif" alt="example2" width="320"/><img src="gifs/example3.gif" alt="example3" width="320"/>
+<img src="gifs/example4.gif" alt="example4" width="320"/><img src="gifs/example5.gif" alt="example5" width="320"/><img src="gifs/example6.gif" alt="example6" width="320"/>

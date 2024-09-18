@@ -133,6 +133,8 @@ surface_reset_target();
 
 The lines are drawn in different colors to highlight their individual movements and the effects of their different rotational speeds.
 
+Try out different speeds for each line to obtain different images.
+
 ## More Examples
 <img src="gifs/example1.gif" alt="example1" width="240"/><img src="gifs/example2.gif" alt="example2" width="240"/><img src="gifs/example3.gif" alt="example3" width="240"/>
 <img src="gifs/example4.gif" alt="example4" width="240"/><img src="gifs/example5.gif" alt="example5" width="240"/><img src="gifs/example6.gif" alt="example6" width="240"/>
